@@ -1,7 +1,7 @@
 case class ExecutionResult(
   exit: Boolean,
   exitCode: Int,
-  error: Option[Exception]
+  data: ReadableData | Exception
 )
 
 case class Executor(
@@ -19,4 +19,4 @@ case class Executor(
 
       return result
     catch
-      case e: Exception => ExecutionResult(false, 1, Some(e))
+      case e: Exception => ExecutionResult(false, 1, e)

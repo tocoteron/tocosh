@@ -11,9 +11,13 @@ case class Shell():
       val executor = Executor(nodes)
       val res = executor.execute()
 
-      res.error match
-        case Some(e) => println(s"${res.exitCode}: ${e.getMessage()}")
-        case None => println(res.exitCode)
+      val writer = res.data match
+        case data: ReadableData => Writer(data)
+        case e: Exception => Writer(
+          ReadableData.HumanReadable(e.getMessage())
+        )
+
+      writer.write()
 
       if res.exit then
         return res.exitCode
