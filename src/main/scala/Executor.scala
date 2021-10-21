@@ -1,6 +1,7 @@
 case class ExecutionResult(
   exit: Boolean,
-  exitCode: Int
+  exitCode: Int,
+  error: Option[Exception]
 )
 
 case class Executor(
@@ -8,11 +9,14 @@ case class Executor(
 ):
 
   def execute(): ExecutionResult =
-    val command = this.nodeList.head
-    val arguments = this.nodeList.drop(1).map(_.value)
+    try
+      val command = this.nodeList.head.value
+      val arguments = this.nodeList.drop(1).map(_.value)
 
-    val result = command.value match
-      case "exit" => ExitCommand.execute(arguments)
-      case _ => ExecutionResult(false, 0)
+      val result = command match
+        case "exit" => ExitCommand.execute(command, arguments)
+        case _ => ExternalCommand.execute(command, arguments)
 
-    return result
+      return result
+    catch
+      case e: Exception => ExecutionResult(false, 1, Some(e))
