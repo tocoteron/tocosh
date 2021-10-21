@@ -10,16 +10,38 @@ case class MachineReadableObject(
     Map[String, MachineReadableObject]
 ):
   def encode(): String =
-    this.data match
+    MachineReadableObject.encode(this, 0)
+
+object MachineReadableObject:
+  def encode(obj: MachineReadableObject, depth: Int): String =
+    val indent = "  "
+    val firstIndent = indent * (depth + 1)
+    val lastIndent = indent * depth
+
+    obj.data match
       case null => "null"
-      case b: Boolean => if b then "true" else "false"
+      case bool: Boolean => if bool then "true" else "false"
       case num: Long => s"${num}"
       case num: Double => s"${num}"
       case str: String => s"\"${str}\""
-      case Some(obj) => obj.encode()
+      case Some(obj) => MachineReadableObject.encode(obj, depth + 1)
       case None => ""
-      case seq: Seq[MachineReadableObject] => s"[${seq.map(_.encode()).mkString(",")}]"
-      case map: Map[String, MachineReadableObject] => s"{${map.map((k, v) => s"\"${k}\":${v.encode()}").mkString(",")}}"
+      case seq: Seq[MachineReadableObject] =>
+        val content = seq
+          .map(MachineReadableObject.encode(_, depth + 1))
+          .mkString(s",\n${firstIndent}")
+        if seq.isEmpty then
+          "[]"
+        else
+          s"[\n${firstIndent}${content}\n${lastIndent}]"
+      case map: Map[String, MachineReadableObject] =>
+        val content = map
+          .map((key, data) => s"\"${key}\": ${MachineReadableObject.encode(data, depth + 1)}")
+          .mkString(s",\n${firstIndent}")
+        if map.isEmpty then
+          "{}"
+        else
+          s"{\n${firstIndent}${content}\n${lastIndent}}"
 
 enum ReadableData:
   case HumanReadable(data: String)
