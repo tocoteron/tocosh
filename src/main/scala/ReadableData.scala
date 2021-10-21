@@ -17,6 +17,8 @@ object MachineReadableObject:
     val indent = "  "
     val firstIndent = indent * (depth + 1)
     val lastIndent = indent * depth
+    val encodeChild = (obj: MachineReadableObject) =>
+      MachineReadableObject.encode(obj, depth + 1)
 
     obj.data match
       case null => "null"
@@ -24,11 +26,11 @@ object MachineReadableObject:
       case num: Long => s"${num}"
       case num: Double => s"${num}"
       case str: String => s"\"${str}\""
-      case Some(obj) => MachineReadableObject.encode(obj, depth + 1)
+      case Some(obj) => encodeChild(obj)
       case None => ""
       case seq: Seq[MachineReadableObject] =>
         val content = seq
-          .map(MachineReadableObject.encode(_, depth + 1))
+          .map(encodeChild(_))
           .mkString(s",\n${firstIndent}")
         if seq.isEmpty then
           "[]"
@@ -36,7 +38,7 @@ object MachineReadableObject:
           s"[\n${firstIndent}${content}\n${lastIndent}]"
       case map: Map[String, MachineReadableObject] =>
         val content = map
-          .map((key, data) => s"\"${key}\": ${MachineReadableObject.encode(data, depth + 1)}")
+          .map((key, data) => s"\"${key}\": ${encodeChild(data)}")
           .mkString(s",\n${firstIndent}")
         if map.isEmpty then
           "{}"
