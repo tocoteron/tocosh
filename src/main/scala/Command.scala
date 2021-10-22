@@ -11,7 +11,7 @@ object ExitCommand extends CommandInterface:
     return ExecutionResult(
       true,
       0,
-      ReadableData.MachineReadable(MachineReadableObject(None))
+      ReadableData.MachineReadable(JSON.getEmptyArray())
     )
 
 end ExitCommand
@@ -20,11 +20,11 @@ object ExternalCommand extends CommandInterface:
 
   def execute(command: String, arguments: List[String]): ExecutionResult =
     try
-      val stdout = ListBuffer[MachineReadableObject]()
-      val stderr = ListBuffer[MachineReadableObject]()
+      val stdout = ListBuffer[String]()
+      val stderr = ListBuffer[String]()
       val logger = ProcessLogger(
-        stdout += MachineReadableObject(_),
-        stderr += MachineReadableObject(_)
+        stdout += _,
+        stderr += _
       )
       val exitCode = (command :: arguments) ! logger
 
@@ -32,12 +32,10 @@ object ExternalCommand extends CommandInterface:
         false,
         exitCode,
         ReadableData.MachineReadable(
-          MachineReadableObject(
-            Map(
-              "stdout" -> MachineReadableObject(stdout.toList),
-              "stderr" -> MachineReadableObject(stderr.toList)
-            )
-          )
+          JSON.Object(Map(
+            "stdout" -> JSONNode(JSON.Array(stdout.map(JSONNode(_)).toList)),
+            "stderr" -> JSONNode(JSON.Array(stderr.map(JSONNode(_)).toList))
+          ))
         )
       )
     catch
