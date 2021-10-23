@@ -1,15 +1,13 @@
-case class Shell():
+object Shell:
 
   def run(): Int =
     while true do
       print("$ ")
 
       val input = io.StdIn.readLine()
-      val tokenizer = Tokenizer(input)
-      val parser = Parser(tokenizer)
-      val nodes = parser.parse()
-      val executor = Executor(nodes)
-      val res = executor.execute()
+      val tokens = Tokenizer.tokenize(input)
+      val nodes = Parser.parse(tokens)
+      val res = Executor.execute(nodes)
 
       /*
       val writer = res.data match

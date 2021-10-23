@@ -6,12 +6,9 @@ case class Node(
   value: String
 )
 
-case class Parser(
-  tokenizer: Tokenizer
-):
-
-  def parse(): List[Node] =
-    this.tokenizer.tokenize()
+object Parser:
+  def parse(tokens: Seq[Token]): Seq[Node] =
+    tokens
       .zipWithIndex
       .map((token, index) =>
         if index == 0 then

@@ -12186,3 +12186,267 @@ WARNING: Unmatched cancel notification for request id 47422
 [0m2021.10.24 02:18:02 INFO  time: compiled root in 0.14s[0m
 Oct 24, 2021 2:18:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 47685
+Oct 24, 2021 2:19:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47698
+Oct 24, 2021 2:19:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47704
+[0m2021.10.24 02:20:00 INFO  compiling root (1 scala source)[0m
+[0m2021.10.24 02:20:00 INFO  time: compiled root in 0.15s[0m
+[0m2021.10.24 02:20:06 INFO  compiling root (1 scala source)[0m
+[0m2021.10.24 02:20:06 INFO  time: compiled root in 0.14s[0m
+[0m2021.10.24 02:20:06 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.24 02:20:06 INFO  time: compiled root in 54ms[0m
+[0m2021.10.24 02:20:10 INFO  compiling root (1 scala source)[0m
+[0m2021.10.24 02:20:10 INFO  time: compiled root in 0.12s[0m
+[0m2021.10.24 02:20:10 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.24 02:20:10 INFO  time: compiled root in 47ms[0m
+[0m2021.10.24 02:20:15 INFO  compiling root (1 scala source)[0m
+[0m2021.10.24 02:20:15 INFO  time: compiled root in 0.11s[0m
+[0m2021.10.24 02:20:15 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.24 02:20:15 INFO  time: compiled root in 70ms[0m
+[0m2021.10.24 02:20:17 INFO  compiling root (1 scala source)[0m
+[0m2021.10.24 02:20:17 INFO  time: compiled root in 0.11s[0m
+[0m2021.10.24 02:20:17 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.24 02:20:17 INFO  time: compiled root in 64ms[0m
+[0m2021.10.24 02:20:20 INFO  compiling root (1 scala source)[0m
+[0m2021.10.24 02:20:20 INFO  time: compiled root in 0.13s[0m
+[0m2021.10.24 02:20:20 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.24 02:20:20 INFO  time: compiled root in 57ms[0m
+[0m2021.10.24 02:20:26 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.24 02:20:26 INFO  time: compiled root in 54ms[0m
+[0m2021.10.24 02:20:27 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.24 02:20:27 INFO  time: compiled root in 0.16s[0m
+[0m2021.10.24 02:20:29 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.24 02:20:29 INFO  time: compiled root in 0.32s[0m
+[0m2021.10.24 02:20:58 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.24 02:20:58 INFO  time: compiled root in 0.16s[0m
+[0m2021.10.24 02:21:10 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.24 02:21:10 INFO  time: compiled root in 0.15s[0m
+[0m2021.10.24 02:21:16 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.24 02:21:16 INFO  time: compiled root in 0.16s[0m
+[0m2021.10.24 02:21:34 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.24 02:21:34 INFO  time: compiled root in 0.14s[0m
+[0m2021.10.24 02:21:34 INFO  compiling root (1 scala source)[0m
+[0m2021.10.24 02:21:34 INFO  time: compiled root in 43ms[0m
+Oct 24, 2021 2:21:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48191
+[0m2021.10.24 02:21:49 INFO  compiling root (3 scala sources)[0m
+[0m2021.10.24 02:21:49 INFO  time: compiled root in 63ms[0m
+[0m2021.10.24 02:22:17 INFO  compiling root (3 scala sources)[0m
+[0m2021.10.24 02:22:17 INFO  time: compiled root in 0.16s[0m
+[0m2021.10.24 02:22:23 INFO  compiling root (3 scala sources)[0m
+[0m2021.10.24 02:22:23 INFO  time: compiled root in 0.15s[0m
+Oct 24, 2021 2:22:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48358
+Oct 24, 2021 2:22:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48390
+[0m2021.10.24 02:22:46 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:22:46 INFO  time: compiled root in 0.16s[0m
+[0m2021.10.24 02:22:55 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:22:55 INFO  time: compiled root in 79ms[0m
+[0m2021.10.24 02:23:02 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:23:02 INFO  time: compiled root in 72ms[0m
+[0m2021.10.24 02:23:21 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:23:21 INFO  time: compiled root in 75ms[0m
+[0m2021.10.24 02:23:23 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:23:23 INFO  time: compiled root in 68ms[0m
+[0m2021.10.24 02:23:27 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:23:27 INFO  time: compiled root in 78ms[0m
+[0m2021.10.24 02:23:28 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:23:28 INFO  time: compiled root in 71ms[0m
+Oct 24, 2021 2:23:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48723
+Oct 24, 2021 2:23:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48729
+[0m2021.10.24 02:23:54 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:23:54 INFO  time: compiled root in 0.25s[0m
+[0m2021.10.24 02:23:56 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:23:56 INFO  time: compiled root in 0.2s[0m
+Oct 24, 2021 2:24:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48797
+[0m2021.10.24 02:24:06 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:24:06 INFO  time: compiled root in 0.2s[0m
+Oct 24, 2021 2:24:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48824
+[0m2021.10.24 02:25:37 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:25:37 INFO  time: compiled root in 0.19s[0m
+Oct 24, 2021 2:25:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48881
+[0m2021.10.24 02:25:43 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:25:43 INFO  time: compiled root in 85ms[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:4:13: stale bloop error: '=>' expected, but '(' found
+    case Seq() => CommandResult(false, 0)
+            ^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:6:7: stale bloop error: an identifier expected, but 'val' found
+      val commandName = head.value
+      ^^^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:16:1: stale bloop error: eof expected, but unindent found
+
+^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:3:51: stale bloop error: Not found: type nodes
+  def execute(nodes: Seq[Node]): CommandResult => nodes match
+                                                  ^^^^^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:5:10: stale bloop error: Too many type arguments for ::[A]
+expected: [A]
+actual:   [head, tail]
+    case head :: tail =>
+         ^^^^^^^^^^^^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:3:7: stale bloop error: Declaration of method execute not allowed here: only classes can have declared but undefined members
+  def execute(nodes: Seq[Node]): CommandResult => nodes match
+      ^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:7:23: stale bloop error: Not found: tail
+      val arguments = tail.map(_.value)
+                      ^^^^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:9:41: stale bloop error: Not found: commandName
+      val result = Command.registry.get(commandName) match
+                                        ^^^^^^^^^^^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:15:7: stale bloop warning: A pure expression does nothing in statement position; you may be omitting necessary parentheses
+      result
+      ^^^^^^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:4:13: stale bloop error: '=>' expected, but '(' found
+    case Seq() => CommandResult(false, 0)
+            ^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:6:7: stale bloop error: an identifier expected, but 'val' found
+      val commandName = head.value
+      ^^^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:16:1: stale bloop error: eof expected, but unindent found
+
+^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:3:51: stale bloop error: Not found: type nodes
+  def execute(nodes: Seq[Node]): CommandResult => nodes match
+                                                  ^^^^^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:5:10: stale bloop error: Too many type arguments for ::[A]
+expected: [A]
+actual:   [head, tail]
+    case head :: tail =>
+         ^^^^^^^^^^^^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:3:7: stale bloop error: Declaration of method execute not allowed here: only classes can have declared but undefined members
+  def execute(nodes: Seq[Node]): CommandResult => nodes match
+      ^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:7:23: stale bloop error: Not found: tail
+      val arguments = tail.map(_.value)
+                      ^^^^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:9:41: stale bloop error: Not found: commandName
+      val result = Command.registry.get(commandName) match
+                                        ^^^^^^^^^^^[0m
+[0m2021.10.24 02:25:57 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:15:7: stale bloop warning: A pure expression does nothing in statement position; you may be omitting necessary parentheses
+      result
+      ^^^^^^[0m
+[0m2021.10.24 02:26:00 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:26:00 INFO  time: compiled root in 74ms[0m
+Oct 24, 2021 2:26:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48966
+Oct 24, 2021 2:26:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48974
+Oct 24, 2021 2:26:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48982
+Oct 24, 2021 2:27:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48988
+Oct 24, 2021 2:27:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48995
+Oct 24, 2021 2:27:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48999
+[0m2021.10.24 02:27:22 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:27:22 INFO  time: compiled root in 71ms[0m
+Oct 24, 2021 2:27:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49050
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:4:13: stale bloop error: '=>' expected, but '(' found
+    case Seq() => CommandResult(false, 0)
+            ^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:6:7: stale bloop error: an identifier expected, but 'val' found
+      val commandName = head.value
+      ^^^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:16:1: stale bloop error: eof expected, but unindent found
+
+^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:3:51: stale bloop error: Not found: type nodes
+  def execute(nodes: Seq[Node]): CommandResult => nodes match
+                                                  ^^^^^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:5:15: stale bloop error: Not found: type +:
+    case head +: tail =>
+              ^^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:3:7: stale bloop error: Declaration of method execute not allowed here: only classes can have declared but undefined members
+  def execute(nodes: Seq[Node]): CommandResult => nodes match
+      ^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:7:23: stale bloop error: Not found: tail
+      val arguments = tail.map(_.value)
+                      ^^^^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:9:41: stale bloop error: Not found: commandName
+      val result = Command.registry.get(commandName) match
+                                        ^^^^^^^^^^^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:15:7: stale bloop warning: A pure expression does nothing in statement position; you may be omitting necessary parentheses
+      result
+      ^^^^^^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:4:13: stale bloop error: '=>' expected, but '(' found
+    case Seq() => CommandResult(false, 0)
+            ^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:6:7: stale bloop error: an identifier expected, but 'val' found
+      val commandName = head.value
+      ^^^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:16:1: stale bloop error: eof expected, but unindent found
+
+^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:3:51: stale bloop error: Not found: type nodes
+  def execute(nodes: Seq[Node]): CommandResult => nodes match
+                                                  ^^^^^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:5:15: stale bloop error: Not found: type +:
+    case head +: tail =>
+              ^^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:3:7: stale bloop error: Declaration of method execute not allowed here: only classes can have declared but undefined members
+  def execute(nodes: Seq[Node]): CommandResult => nodes match
+      ^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:7:23: stale bloop error: Not found: tail
+      val arguments = tail.map(_.value)
+                      ^^^^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:9:41: stale bloop error: Not found: commandName
+      val result = Command.registry.get(commandName) match
+                                        ^^^^^^^^^^^[0m
+[0m2021.10.24 02:27:49 INFO  /home/tocoteron/development/tocosh/src/main/scala/Executor.scala:15:7: stale bloop warning: A pure expression does nothing in statement position; you may be omitting necessary parentheses
+      result
+      ^^^^^^[0m
+[0m2021.10.24 02:27:51 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:27:51 INFO  time: compiled root in 73ms[0m
+[0m2021.10.24 02:28:00 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:28:00 INFO  time: compiled root in 0.2s[0m
+[0m2021.10.24 02:28:05 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:28:05 INFO  time: compiled root in 0.19s[0m
+[0m2021.10.24 02:28:14 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:28:14 INFO  time: compiled root in 0.17s[0m
+[0m2021.10.24 02:28:19 INFO  compiling root (4 scala sources)[0m
+[0m2021.10.24 02:28:19 INFO  time: compiled root in 0.21s[0m
+Oct 24, 2021 2:29:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49227
+Oct 24, 2021 2:29:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49235
+Oct 24, 2021 2:29:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49241
+[0m2021.10.24 02:29:26 INFO  compiling root (1 scala source)[0m
+[0m2021.10.24 02:29:26 INFO  time: compiled root in 76ms[0m
+[0m2021.10.24 02:29:26 INFO  compiling root (1 scala source)[0m
+[0m2021.10.24 02:29:26 INFO  time: compiled root in 34ms[0m
+Oct 24, 2021 2:29:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49327
+[0m2021.10.24 02:29:31 INFO  compiling root (2 scala sources)[0m
+[0m2021.10.24 02:29:31 INFO  time: compiled root in 96ms[0m
+Oct 24, 2021 2:29:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49349
+Oct 24, 2021 2:30:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49359
+Oct 24, 2021 2:30:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49365
+Oct 24, 2021 2:30:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49372
+Oct 24, 2021 2:30:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49378
+Oct 24, 2021 2:30:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49386
+Oct 24, 2021 2:30:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49393
+Oct 24, 2021 2:30:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49402
+Oct 24, 2021 2:30:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49408
+Oct 24, 2021 2:30:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49416
+Oct 24, 2021 2:30:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49424

@@ -1,2 +1,2 @@
 @main def main: Int =
-  return Shell().run()
+  return Shell.run()

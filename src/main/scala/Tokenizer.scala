@@ -6,12 +6,9 @@ case class Token(
   value: String
 )
 
-case class Tokenizer(
-  input: String
-):
-
-  def tokenize(): List[Token] =
-    this.input
+object Tokenizer:
+  def tokenize(input: String): List[Token] =
+    input
       .split(" ")
       .filter(_ != "")
       .map(Token(TokenKind.Plain, _))
