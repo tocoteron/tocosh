@@ -9,7 +9,8 @@ case class Executor(
       val arguments = tail.map(_.value)
 
       val result = Command.registry.get(commandName) match
-        case None => CommandResult(false, 0)
+        case None =>
+          Command.exec(Command(externalCommand, commandName :: arguments))
         case Some(commandFunc) =>
           Command.exec(Command(commandFunc, arguments))
 

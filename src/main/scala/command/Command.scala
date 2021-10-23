@@ -43,6 +43,31 @@ object Command:
 
 // Commands
 
+def externalCommand(args: CommandArgs, io: IO): CommandResult =
+  val streamHandler = (is: InputStream, os: OutputStream) =>
+    try
+      val reader = BufferedReader(InputStreamReader(is))
+      val writer = BufferedWriter(OutputStreamWriter(os))
+      var line = reader.readLine
+
+      while line != null do
+        writer.write(line)
+        writer.newLine
+        writer.flush
+        line = reader.readLine
+    catch
+      case e: java.lang.InterruptedException => ()
+
+  val processIO = ProcessIO(
+    streamHandler(io.stdin, _),
+    streamHandler(_, io.stdout),
+    streamHandler(_, io.stderr),
+  )
+
+  val process = Process(args).run(processIO)
+
+  CommandResult(false, process.exitValue)
+
 def exitCommand(args: CommandArgs, io: IO): CommandResult =
   CommandResult(true, 0)
 
