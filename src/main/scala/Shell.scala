@@ -11,6 +11,7 @@ case class Shell():
       val executor = Executor(nodes)
       val res = executor.execute()
 
+      /*
       val writer = res.data match
         case data: ReadableData => Writer(data)
         case e: Exception => Writer(
@@ -18,6 +19,7 @@ case class Shell():
         )
 
       writer.write()
+      */
 
       if res.exit then
         return res.exitCode

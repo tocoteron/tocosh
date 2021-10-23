@@ -1,22 +1,16 @@
-case class ExecutionResult(
-  exit: Boolean,
-  exitCode: Int,
-  data: ReadableData | Exception
-)
-
 case class Executor(
   nodeList: List[Node]
 ):
 
-  def execute(): ExecutionResult =
-    try
-      val command = this.nodeList.head.value
-      val arguments = this.nodeList.drop(1).map(_.value)
+  def execute(): CommandResult = this.nodeList match
+    case Nil => CommandResult(false, 0)
+    case head :: tail =>
+      val commandName = head.value
+      val arguments = tail.map(_.value)
 
-      val result = command match
-        case "exit" => ExitCommand.execute(command, arguments)
-        case _ => ExternalCommand.execute(command, arguments)
+      val result = Command.registry.get(commandName) match
+        case None => CommandResult(false, 0)
+        case Some(commandFunc) =>
+          Command.exec(Command(commandFunc, arguments))
 
-      return result
-    catch
-      case e: Exception => ExecutionResult(false, 1, e)
+      result
