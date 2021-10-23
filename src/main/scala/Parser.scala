@@ -3,7 +3,7 @@ enum NodeKind:
 
 case class Node(
   kind: NodeKind,
-  value: String
+  value: String,
 )
 
 object Parser:

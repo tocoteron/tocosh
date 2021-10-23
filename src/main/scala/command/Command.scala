@@ -7,12 +7,12 @@ type CommandFunc = (args: CommandArgs, io: IO) => CommandResult
 
 case class CommandResult(
   exit: Boolean,
-  exitCode: Int
+  exitCode: Int,
 )
 
 case class Command(
   func: CommandFunc,
-  args: CommandArgs
+  args: CommandArgs,
 )
 
 object Command:
@@ -41,7 +41,9 @@ object Command:
     "hello" -> helloCommand,
   )
 
-// Commands
+//////////////
+// Commands //
+//////////////
 
 def externalCommand(args: CommandArgs, io: IO): CommandResult =
   val streamHandler = (is: InputStream, os: OutputStream) =>

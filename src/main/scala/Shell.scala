@@ -1,5 +1,4 @@
 object Shell:
-
   def run(): Int =
     while true do
       print("$ ")

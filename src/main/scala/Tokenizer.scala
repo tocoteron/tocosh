@@ -3,7 +3,7 @@ enum TokenKind:
 
 case class Token(
   kind: TokenKind,
-  value: String
+  value: String,
 )
 
 object Tokenizer:

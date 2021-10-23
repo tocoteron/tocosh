@@ -1,9 +1,15 @@
 import java.io._
 import scala.collection.mutable.ListBuffer
 
-case class CommandExecPlan(command: Command, io: IO)
+case class CommandExecPlan(
+  command: Command,
+  io: IO,
+)
 
 object CommandExecPlan:
+  def build(command: Command): (List[CommandExecPlan], IO) =
+    build(List(command))
+
   def build(commands: List[Command]): (List[CommandExecPlan], IO) =
     // Build head plan
     val headStdoutOut = PipedOutputStream()

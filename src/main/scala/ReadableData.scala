@@ -42,7 +42,7 @@ object JSON:
   def getEmptyObject(): JSON.Object = JSON.Object(Map())
 
 case class JSONNode(
-  data: JSON | JSONLeafType
+  data: JSON | JSONLeafType,
 ):
   def encode(depth: Int): String = this.data match
     case json: JSON => json.encode(depth)
